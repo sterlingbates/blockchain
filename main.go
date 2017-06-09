@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	err := shim.Start(new(lib.Blocktrust))
+	err := shim.Start(new(shared.Blocktrust))
 	if err != nil {
 		fmt.Printf("Error starting Blocktrust chaincode: %s", err)
 	}
