@@ -1,14 +1,14 @@
 package shared
 
 import (
-	"encoding/json"
-	"encoding/base64"
+	// "encoding/json"
+	// "encoding/base64"
+	// "os"
+	// "io/ioutil"
+	// "time"
+	// "strings"
 	"fmt"
-	"os"
-	"io/ioutil"
 	"errors"
-	"time"
-	"strings"
 
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
